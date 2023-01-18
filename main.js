@@ -154,12 +154,12 @@ async function setUpLaptopCards() {
       if (BANK_CUSTOMER.buySomething(LAPTOP.price)) {
         LAPTOP.stock--;
         displayTheBalance();
-        window.alert("Congratulations with your new laptop!");
+        alert("Congratulations with your new laptop!");
       } else {
-        window.alert("You cannot afford this laptop.");
+        alert("You cannot afford this laptop.");
       }
     } else {
-      window.alert("This laptop is not in stock.");
+      alert("This laptop is not in stock.");
     }
   }
 }
